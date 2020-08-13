@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Report</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center pt-5 heading">Check Weather Report</h1>
+      <div class="row">  
+       <div class="col-md-6 mx-auto">  
+       <img class="image" src="https://cdn1.vectorstock.com/i/1000x1000/04/10/weather-condition-and-meteorological-forecast-vector-23810410.jpg">
+        <div class="card" style="width: 400px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Weather Report</h5>
+              <form>
+                  <div class="form-group">
+                      <label for="city">Enter City Name</label>
+                      <input type="text" placeholder="City" class="form-control city">
+                  </div>
+                  <div class="form-group">
+                    <input type="button"  value="Submit" class="submit">
+                </div>
+              </form>
+              <ul class="list-group list-group-flush results">
+                <!-- <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li> -->
+              </ul>
+            </div>
+          </div>
+       </div>
+      </div> 
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

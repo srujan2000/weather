@@ -1,0 +1,9 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.image{
+    width: 420px;
+    height: 400px;
+    padding: 20px !important;
+}
