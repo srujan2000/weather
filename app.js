@@ -6,7 +6,7 @@ function getResult(e){
 
     const xhr  = new XMLHttpRequest();
 
-    xhr.open("GET",`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=dec475c4b2c1ae00f28d29ff29846d77`,true);
+    xhr.open("GET",`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=(yourapikey)`,true);
 
     xhr.onload = function(){
         if(this.status === 200){
